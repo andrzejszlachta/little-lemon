@@ -65,6 +65,36 @@ header .logo {
   margin: 1rem;
 }
 
+/* main */
+main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: var(--fontFamSmall);
+  margin: 2rem auto;
+}
+main label {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+main input,
+main select {
+  text-align: center;
+  padding: 0.1rem 0.2rem;
+  font-size: 1.4rem;
+}
+
+main input[type="submit"] {
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: var(--fontFamBig);
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: var(--secondaryColor);
+}
+
 /* footer */
 
 footer {
